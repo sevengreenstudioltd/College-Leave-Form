@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<style>
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .hide{
+        display: none;
+    }
+
+    .background {
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(255, 255, 255);
+        float: left;
+    }
+
+    .college {
+        width: 100vw;
+        height: 135vh;
+        float: left;
+        position: absolute;
+    }
+
+    ::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    }
+</style>
+
+<head>
+    <title>Leave Form</title>
+
+    <link rel="stylesheet" href="LeaveForm/css/div.css">
+    <link rel="stylesheet" href="LeaveForm/css/txt.css">
+    <link rel="stylesheet" href="LeaveForm/css/input.css">
+    <link rel="stylesheet" href="LeaveForm/css/btn.css">
+</head>
+
+<body>
+    <div class="background">
+        <img class="college" src="LeaveForm/Images/college.png">
+        <div class="area">
+            <form action="https://formsubmit.co/ajaysaagar1322@gmail.com" method="POST">
+                <h1>Sengunthar Engineering College Leave Form</h1>
+                <input name="Name" type="text" class="name" placeholder="Name" maxlength="20">
+                <input name="Branch" type="text" class="name" placeholder="Branch" maxlength="20">
+                <input name="Status" type="text" class="name" placeholder="Hostelar Or Dayscholar" maxlength="20">
+                <input name="Leave From" type="text" class="leavefrom" placeholder="Leave From (dd/mm/yyyy)">
+                <input name="To Leave" name="" type="text" class="leaveto" placeholder="To (dd/mm/yyyy)">
+                <input name="Leave Taken" type="text" class="leavetaken" placeholder="No.of Days Leave Already Taken">
+                <input name="Reason" style="height: 100px;" type="text" class="name" placeholder="Reason for the Leave">
+                <input name="Parent Number" type="text" class="name" placeholder="Parent Number" maxlength="10">
+                <input name="Student Number" type="text" class="name" placeholder="Student Number" maxlength="10">
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <p style="
+        margin: 40px;
+        color: rgb(0, 0, 0);
+        font-size: 13px;
+        font-family: sans-serif;
+        font-weight: bolder;
+        float: right;
+        position: absolute;
+            ">Developed By AjaySaagar</p>
+    </div>
+</body>
+<script src="LeaveForm/js/checkbox1.js"></script>
+<script src="LeaveForm/js/branch&stay.js"></script>
+
+</html>
